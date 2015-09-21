@@ -1,0 +1,66 @@
+body, html {
+  height: 100%;
+  min-height: 100%;
+}
+
+body {
+  background: linear-gradient(to bottom, rgb(199, 198, 197) 0%,rgb(197, 191, 173) 40%);
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-transform: perspective(800px);
+          transform: perspective(800px);
+}
+
+.poster {
+  width: 480px;
+  height: 710px;
+  position: absolute;
+  top: 50%; left: 50%;
+  margin: -360px 0 0 -240px;
+  border-radius: 5px;
+  box-shadow: 0 45px 100px rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+}
+
+.poster .shine {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: -webkit-linear-gradient(315deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 90%);
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 90%);
+  /*z-index: 100;*/
+}
+
+div[class*="layer-"] {
+  position: absolute;
+  top: -10px; left: -10px;
+  right: -10px; bottom: -10px;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  transition: 0.128s;
+}
+
+.layer-1 {
+  background-image: url('img/1.png');
+}
+.layer-2 {
+  background-image: url('img/2.png');
+}
+.layer-3 {
+/*top: 0; bottom: 0;
+left: 0; right: 0;*/
+  background-image: url('img/3.png');
+}
+.layer-4 {
+  background-image: url('img/4.png');
+}
+.layer-5 {
+  background-image: url('img/5.png');
+}
+
+.hidden {
+  display: none;
+}
