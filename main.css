@@ -44,21 +44,21 @@ div[class*="layer-"] {
 }
 
 .layer-1 {
-  background-image: url('img/1.png');
+  background-image: url('http://7xj46o.com1.z0.glb.clouddn.com/1.png');
 }
 .layer-2 {
-  background-image: url('img/2.png');
+  background-image: url('http://7xj46o.com1.z0.glb.clouddn.com/2.png');
 }
 .layer-3 {
 /*top: 0; bottom: 0;
 left: 0; right: 0;*/
-  background-image: url('img/3.png');
+  background-image: url('http://7xj46o.com1.z0.glb.clouddn.com/3.png');
 }
 .layer-4 {
-  background-image: url('img/4.png');
+  background-image: url('http://7xj46o.com1.z0.glb.clouddn.com/4.png');
 }
 .layer-5 {
-  background-image: url('img/5.png');
+  background-image: url('http://7xj46o.com1.z0.glb.clouddn.com/5.png');
 }
 
 .hidden {
