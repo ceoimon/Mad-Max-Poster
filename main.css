@@ -16,10 +16,26 @@ body {
   height: 710px;
   position: absolute;
   top: 50%; left: 50%;
-  margin: -360px 0 0 -240px;
+  margin: -355px 0 0 -240px;
   border-radius: 5px;
   box-shadow: 0 45px 100px rgba(0, 0, 0, 0.4);
   overflow: hidden;
+}
+
+@media screen and (max-height: 728px) {
+  .poster {
+    width: 320px;
+    height: 470px;
+    margin: -235px 0 0 -160px;
+  }
+}
+
+@media screen and (min-height: 1081px) {
+  .poster {
+    width: 720;
+    height: 1065px;
+    margin: -532.5px 0 0 -360px;
+  }
 }
 
 .poster .shine {
@@ -44,21 +60,26 @@ div[class*="layer-"] {
 }
 
 .layer-1 {
-  background-image: url('http://7xj46o.com1.z0.glb.clouddn.com/1.png');
+  /*background-image: url('http://7xj46o.com1.z0.glb.clouddn.com/1.png');*/
+  background-image: url('img/1.png');
 }
 .layer-2 {
-  background-image: url('http://7xj46o.com1.z0.glb.clouddn.com/2.png');
+  /*background-image: url('http://7xj46o.com1.z0.glb.clouddn.com/2.png');*/
+  background-image: url('img/2.png');
 }
 .layer-3 {
 /*top: 0; bottom: 0;
 left: 0; right: 0;*/
-  background-image: url('http://7xj46o.com1.z0.glb.clouddn.com/3.png');
+  /*background-image: url('http://7xj46o.com1.z0.glb.clouddn.com/3.png');*/
+  background-image: url('img/3.png');
 }
 .layer-4 {
-  background-image: url('http://7xj46o.com1.z0.glb.clouddn.com/4.png');
+  /*background-image: url('http://7xj46o.com1.z0.glb.clouddn.com/4.png');*/
+  background-image: url('img/4.png');
 }
 .layer-5 {
-  background-image: url('http://7xj46o.com1.z0.glb.clouddn.com/5.png');
+  /*background-image: url('http://7xj46o.com1.z0.glb.clouddn.com/5.png');*/
+  background-image: url('img/5.png');
 }
 
 .hidden {
